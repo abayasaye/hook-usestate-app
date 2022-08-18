@@ -1,10 +1,25 @@
 import { useState } from "react"
 const TableUser = ()=>{
 
-let[array,setArray] = useState([]);
+// let[array,setArray] = useState([]);
+let[array,setArray] = useState(["hello","world","abay"]);
 const addObjectsToArray = ()=>{
-    const newArray = ["hello","world","abay"]
-    setArray(newArray)
+    // const newArray = ["hello","world","abay"]
+    // setArray(newArray)
+
+    // setArray(()=>
+    // ["hello","world","abay"]
+    // )
+//     setArray((array)=>{array.push("earth","space")
+//         return array;
+// })
+
+setArray((array)=>{
+    return[...array,"abayneh","asaye"]
+})
+    
+
+
     // setArray(array[{df:"g"},{f:"g"},{ef:"g"},{dd:"g"}])
 }
 return(
