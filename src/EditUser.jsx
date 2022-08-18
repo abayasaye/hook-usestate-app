@@ -58,6 +58,7 @@ return(
     <span id="isChange5"></span><br/>
     <h1>{firstName}</h1>
     <button onClick={checkValues}>PRINT-FORM</button>
+    <hr />
     </div>
 )
 }

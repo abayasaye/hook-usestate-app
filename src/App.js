@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import User from './User';
 import TableUser from './UserTable';
+import  Course  from './Course';
 const App = ()=>{
 return(
   <div>
@@ -11,6 +12,7 @@ return(
     <hr/>
     <User/>
     <TableUser/>
+    <Course/>
   </div>
 )
 }

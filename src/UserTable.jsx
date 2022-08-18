@@ -34,6 +34,7 @@ return(
         <h1>
             ARRAY:{array}
         </h1>
+        <hr />
     </div>
 )
 }
