@@ -56,6 +56,7 @@ return(
     <span id="isChange4"></span><br/>
     <input type="text" onChange={changePassword} placeholder="password"/><br/>
     <span id="isChange5"></span><br/>
+    <h1>{firstName}</h1>
     <button onClick={checkValues}>PRINT-FORM</button>
     </div>
 )

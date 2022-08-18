@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Counter from './Counter';
 import User from './User';
+import TableUser from './UserTable';
 const App = ()=>{
 return(
   <div>
@@ -9,6 +10,7 @@ return(
     <Counter num={0}/>
     <hr/>
     <User/>
+    <TableUser/>
   </div>
 )
 }
